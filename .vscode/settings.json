@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "**/templates/**/*.html": "django-html",
+        "**/pcof/**/*.html": "django-html",
+        "*.html": "django-html"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "editor.semanticHighlighting.enabled": true,
+    "workbench.colorTheme": "One Dark Pro Mix"
+}

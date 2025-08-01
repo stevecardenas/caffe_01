@@ -1,0 +1,18 @@
+[project]
+name = "cafe"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "django>=5.2.4",
+    "django-ckeditor>=6.7.3",
+    "pillow>=11.3.0",
+]
+
+[dependency-groups]
+dev = [
+    "pylint>=3.3.7",
+    "pylint-celery>=0.3",
+    "pylint-django>=2.6.1",
+]
